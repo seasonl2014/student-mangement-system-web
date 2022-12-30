@@ -1,0 +1,38 @@
+/* 清楚默认内间距、外间距  */
+* {
+  /* 内间距 */
+  padding: 0;
+  /* 外间距 */
+  margin: 0;
+}
+
+body,
+html {
+  /* 默认页面所有字体为微软雅黑 */
+  font-family: "微软雅黑";
+}
+
+/* 清楚a标签的下划线  */
+a {
+  color: #666;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #2fa7b9;
+}
+
+/* 滚动条样式 */
+::-webkit-scrollbar-thumb {
+  border-radius: 50px;
+  background: linear-gradient(to bottom, #35ac5d, #65ce6d);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+#nprogress .bar {
+  background: #178557 !important;
+}
