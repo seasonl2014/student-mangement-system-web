@@ -25,7 +25,7 @@
 ## 技术栈
 
 1. web框架：SpringBoot3.X
-2. 数据库框架：Sping Data JPA
+2. 数据库持久框架：Sping Data JPA
 3. 数据库：MySql
 4. 项目构建工具：Maven、vite
 5. 前端框架：Vue3.X、element plus、pina、axios、Vue Router
